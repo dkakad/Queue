@@ -105,12 +105,7 @@ T queue<T>::peek() {
 
 template <typename T>
 bool queue<T>::isEmpty() {
-	if (filled == 0) {
-		return true;
-	}
-	else {
-		return false;
-	}
+	return (filled == 0);
 }
 
 template <typename T>
